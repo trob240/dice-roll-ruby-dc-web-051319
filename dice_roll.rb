@@ -7,3 +7,20 @@ def roll
   return 1 + rand(6)
   
 end
+
+=begin
+def roll
+  
+ r = (1..6)
+return  rand(r)
+end
+=end
+
+=begin
+def roll
+  
+ r = Array[1, 2, 3, 4, 5, 6]
+ return r[rand(r.length)]
+  
+end
+=end
